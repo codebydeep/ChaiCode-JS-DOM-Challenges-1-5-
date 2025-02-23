@@ -46,9 +46,9 @@ addBtn.addEventListener('click', () => {
     delButton.addEventListener('click', () => {
         li.remove();
         count--;
-        completeTaskCount--;
+        // completeTaskCount--;
         tasksCount.innerText = `Total tasks: ${count}`;
-        completedTaks.innerText = `Completed: ${completeTaskCount}`;
+        // completedTaks.innerText = `Completed: ${completeTaskCount}`;
     })
     
     presentText.remove();
